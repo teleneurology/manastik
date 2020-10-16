@@ -131,7 +131,7 @@
                         </div>
 
                     </div>
-                    <a href="https://teleneurology.github.io/manastik/#testimonial"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Read more</span></a>
+                    <a href="#project1"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Read more</span></a>
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@
                     <div class="col-md-4">
                         <div class="service-item">
                             <div class="icon">
-                                <img src="imgs/contribute2.svg" height="50" width="50"  alt="">
+                                <img src="imgs/service_icon_2.png" alt="">
                             </div>
                             <h4>Contribute</h4>
                             <p>While learning, contribute to the community and share your thoughts in disciplined project-building activities and get recognized. The more you contribute, the more you enjoy and the more you enjoy, the more you contribute.</p>
@@ -192,7 +192,7 @@
                     <div class="col-md-4">
                         <div class="service-item">
                             <div class="icon">
-                                <img src="imgs/grow.svg" height="50" width="50" alt="">
+                                <img src="imgs/service_icon_3.png" alt="">
                             </div>
                             <h4>Grow</h4>
                             <p>Grow by applying your knowledge in new ideas revolving around Digital Neurology and/or problems of your choice. Move further ahead in your career and share your journey trajectory to help others grow as well.</p>
@@ -241,7 +241,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="https://teleneurology.github.io/manastik/#member-benefits">
+                        <a href="https://teleneurology.github.io/manastik/#about">
                             <span>Read more</span>
                             <i class="fas fa-long-arrow-alt-left fa-2x"></i>
                         </a>

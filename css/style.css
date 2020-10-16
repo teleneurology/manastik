@@ -222,7 +222,7 @@ header .carousel-control-prev {
 /* services */
 
 .services {
-    margin-bottom: 50px
+    margin-bottom: 30px
 }
 
 .services .container {
@@ -280,11 +280,33 @@ header .carousel-control-prev {
     bottom: 7px;
 }
 
+/* benefits */
+
+.member-benefits{
+    margin-bottom: 20px;
+    
+}
+
+    .member-benefits .col-md-4 {
+        background-color: violet;
+        padding: 45px;
+        margin-bottom: 5px;
+        
+        
+    }
+
+    .member-benefits a {
+        font-color: white;
+    }
+
 /* projects */
 
 .project .project-child {
-    padding: 120px 0;
+    padding: 110px 0;
     background-color: #151201;
+    margin-top: 25px;
+    position:static;
+        
 }
 
 .project img {
@@ -294,7 +316,33 @@ header .carousel-control-prev {
 
 .project a {
     color: black;
+    
+    
 }
+
+
+.project .container > a {
+    width: 170px;
+    border:2px solid #ffe25b;
+    margin-top: 30px;
+    text-align: left;
+    background-color: white;
+    float: right;
+    
+}
+
+    .project .container > a i {
+        padding: 5px 15px;
+        color: black;
+        background-color: #ffe25b;
+    }
+
+.project .container > a span {
+    margin-left: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
 
 .project .col-lg-4 {
     position: relative;
@@ -302,7 +350,7 @@ header .carousel-control-prev {
 }
 
 .project .col-lg-4:first-of-type, .project .col-lg-4:last-of-type {
-    bottom: 60px
+    bottom: 20px
 }
 
 .project .col-lg-4:nth-of-type(2) {
@@ -312,7 +360,7 @@ header .carousel-control-prev {
 .project .col-lg-4 > div {
     width: 100%;
     height: 100%;
-    position: relative
+    position:relative:
 }
 
 .project .col-lg-4 > div .yellow-overlay {
@@ -323,32 +371,38 @@ header .carousel-control-prev {
     left: 0;
     background-color: rgba(255, 226, 91, .91);
     opacity: 0;
+    
 }
 
-.project .col-lg-4 > div .yellow-overlay p {
+
+    .project .col-lg-4 > div .yellow-overlay p {
     text-align: center;
-    font-size: 25px
+    font-size: 25px;
+    
 }
 
-.project .col-lg-4 > div:hover .yellow-overlay {
-    opacity: 1
-}
+    .project .col-lg-4 > div:hover .yellow-overlay {
+        opacity: 1 ;
+        
+    }
 
 .project .yellow-overlay {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+   
 }
 
 /* contact */
 
 .contact {
     padding: 70px 0;
+    margin-top:-40px;
 }
 
 .contact-child {
-    background-color: #F54CCD;
+    background-color: #C415D4;
     background-image: url('../imgs/contact1.jpg');
     background-size: 50% 100%;
     background-repeat: no-repeat;
@@ -386,6 +440,7 @@ header .carousel-control-prev {
     background-color: black;
     padding: 50px 0;
     color: white;
+    margin-bottom: 30px;
 }
 
 .testimonial .container {
@@ -548,14 +603,16 @@ footer .copyright p {
     /* service */
     
     .services .col-lg-4 {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
     
     /* project */
     
     .project .col-lg-4 {
         position: static;
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        
+        
     }
     
     /* contact */
