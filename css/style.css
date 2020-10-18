@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    text-align: justify;
 }
 
 li {
@@ -29,7 +30,7 @@ a {
 }
 
 h2 span {
-    text-decoration: underline #ffe25b;
+    text-decoration: underline #5bd9ff;
 }
 
 h2 {
@@ -57,7 +58,7 @@ h2 {
 }
 
 .navbar .log {
-    color: #ffe25b !important;
+    color:  #dd99ff !important;
 }
 
 .navbar ul li.search {
@@ -126,7 +127,7 @@ header .content {
 
 header .content a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid  #dd99ff;
     margin-top: 30px;
     text-align: right;
     color: white;
@@ -135,7 +136,7 @@ header .content a {
 header .content a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color: #dd99ff;
 }
 
 header .content a span {
@@ -152,7 +153,7 @@ header .content a span {
     height: 40px;
     width: 60px;
     line-height: 40px;
-    background-color: white;
+    background-color: #f8f8f8;
 }
 
 header .carousel-control-next i, header .carousel-control-prev i {
@@ -161,7 +162,7 @@ header .carousel-control-next i, header .carousel-control-prev i {
 }
 
 header .carousel-control-next {
-    background-color: #ffe25b;
+    background-color: #f7f4f8    ;
     top: 77%;
 }
 
@@ -200,7 +201,7 @@ header .carousel-control-prev {
 
 .about  a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid  #dd99ff   ;
     margin-top: 30px;
     text-align: left;
     color: black;
@@ -210,7 +211,7 @@ header .carousel-control-prev {
 .about a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color:  #dd99ff;
 }
 
 .about a span {
@@ -222,7 +223,7 @@ header .carousel-control-prev {
 /* services */
 
 .services {
-    margin-bottom: 30px
+    margin-bottom: 50px
 }
 
 .services .container {
@@ -246,7 +247,7 @@ header .carousel-control-prev {
 }
 
 .services .link {
-    border: 3px solid #ffe25b;
+    border: 3px solid #dd99ff    ;
     width: 160px;
     float: right;
 }
@@ -261,7 +262,7 @@ header .carousel-control-prev {
 
 .services .container > a {
     width: 170px;
-    border: 2px solid #ffe25b;
+    border: 2px solid #dd99ff    ;
     margin-top: 30px;
     text-align: left;
     color: black;
@@ -271,7 +272,7 @@ header .carousel-control-prev {
 .services .container > a i {
     padding: 5px 15px;
     color: black;
-    background-color: #ffe25b
+    background-color: #dd99ff;
 }
 
 .services .container > a span {
@@ -280,77 +281,30 @@ header .carousel-control-prev {
     bottom: 7px;
 }
 
-/* benefits */
-
-.member-benefits{
-    margin-bottom: 20px;
-    
-}
-
-    .member-benefits .col-md-4 {
-        background-color: violet;
-        padding: 45px;
-        margin-bottom: 5px;
-        
-        
-    }
-
-    .member-benefits a {
-        font-color: white;
-    }
-
 /* projects */
 
 .project .project-child {
-    padding: 110px 0;
-    background-color: #151201;
-    margin-top: 25px;
-    position:static;
-        
+    padding: 120px 0;
+    background-color: #ebebeb;
+;
 }
 
 .project img {
     width: 100%;
     height: 100%;
+    box-shadow: 5px 10px #dbdadb;
 }
 
 .project a {
     color: black;
-    
-    
 }
-
-
-.project .container > a {
-    width: 170px;
-    border:2px solid #ffe25b;
-    margin-top: 30px;
-    text-align: left;
-    background-color: white;
-    float: right;
-    
-}
-
-    .project .container > a i {
-        padding: 5px 15px;
-        color: black;
-        background-color: #ffe25b;
-    }
-
-.project .container > a span {
-    margin-left: 20px;
-    position: relative;
-    bottom: 7px;
-}
-
 
 .project .col-lg-4 {
     position: relative;
-    height: 300px;
 }
 
 .project .col-lg-4:first-of-type, .project .col-lg-4:last-of-type {
-    bottom: 20px
+    bottom: 60px
 }
 
 .project .col-lg-4:nth-of-type(2) {
@@ -360,7 +314,7 @@ header .carousel-control-prev {
 .project .col-lg-4 > div {
     width: 100%;
     height: 100%;
-    position:relative:
+    position: relative
 }
 
 .project .col-lg-4 > div .yellow-overlay {
@@ -369,78 +323,124 @@ header .carousel-control-prev {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(255, 226, 91, .91);
+    background-color:#f0e1f7;
     opacity: 0;
-    
+    border-radius: 50%;
 }
 
-
-    .project .col-lg-4 > div .yellow-overlay p {
+.project .col-lg-4 > div .yellow-overlay p {
     text-align: center;
-    font-size: 25px;
-    
+    font-size: 25px
 }
 
-    .project .col-lg-4 > div:hover .yellow-overlay {
-        opacity: 1 ;
-        
-    }
+.project .col-lg-4 > div:hover .yellow-overlay {
+    opacity: 1
+}
 
 .project .yellow-overlay {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-   
 }
 
+.member-benefits{
+    margin-bottom: 30px;
+
+}
+
+    .member-benefits .col-md-3 {
+        background-color:   #f0e1f7;
+        padding: 40px;
+  
+
+    }
+#c1{
+    float: left;
+    box-shadow: 5px 10px #f3d8f2;
+
+}
+#c2{
+    margin: 0 auto;
+    box-shadow: 5px 10px #f3d8f2;
+
+}
+#c3{
+    float: right;
+    box-shadow: 5px 10px #f3d8f2;
+
+}
+    .member-benefits a {
+        font-color: white;
+    }
 /* contact */
 
 .contact {
     padding: 70px 0;
-    margin-top:-40px;
+    width: 45%;
+    margin-left: 20%;
+    margin: 0 auto;
+
 }
 
 .contact-child {
-    background-color: #C415D4;
-    background-image: url('../imgs/contact1.jpg');
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: right;
+    background-color: #f0e1f7;
+    vertical-align: middle;
+    margin: 0 auto;
+    box-shadow: 5px 10px #f3d8f2;
     padding: 50px 0;
+    text-align: ce;
 }
 
 .contact form input{
-    width: 80%;
-    padding: 5px 10px;
+    width: 100%;
+    padding: 10px 20px;
     margin-bottom: 15px;
+    border-radius: 5%;
+    border: 3px solid  #dd99ff;
+    vertical-align: middle;
+    
 }
 
+.contact form input:focus{
+    border: 3px solid  #bc47f7;
+    border-radius: 5%;
+
+}
 .contact form textarea {
-    width: 80%;
-    resize: none;
+    width: 100%;
     height: 100px;
     margin-bottom: 15px;
+    border-radius: 5%;
+    border: 3px solid  #dd99ff;
 }
+.contact form textarea:focus{
+    border: 3px solid  #bc47f7;
+    border-radius: 5;
 
+}
 .contact form input[type="submit"] {
-    background-color: #fcfcfc;
+    background-color:  #dd99ff;
     border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     font-weight: bold;
     width: 180px;
     height: 50px;
-    cursor: pointer;
+    cursor:pointer;
     margin-bottom: 0;
 }
-
+.contact form input[input="submit"]:hover{
+    background-color:   #bc47f7;
+}
 /* testimonial */
 
 .testimonial .test-child {
-    background-color: black;
+    background-color: white;
     padding: 50px 0;
-    color: white;
-    margin-bottom: 30px;
+    color: black;
 }
 
 .testimonial .container {
@@ -465,7 +465,7 @@ header .carousel-control-prev {
 footer {
     background-color: #1b1b1a;
     color: white;
-    padding-top: 30px
+    padding-top: 30px;
 }
 
 footer .container {
@@ -512,7 +512,8 @@ footer ul {
 footer ul li {
     margin: 10px 0;
     list-style-type: square;
-    color: #ffe25b;
+    color: #dd99ff
+    ;
 }
 
 footer ul li a {
@@ -520,7 +521,8 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #ffe25b;
+    color:  #dd99ff
+    ;
 }
 
 footer ul.social-media {
@@ -543,7 +545,8 @@ footer form input[type="text"] {
 
 footer form input[type="submit"] {
     border: none;
-    background-color: #ffe25b;
+    background-color:  #dd99ff
+    ;
     height: 30px;
     width: 120px;
 }
@@ -553,6 +556,10 @@ footer .copyright {
     text-align: center;
     border-top: 1px solid;
     padding: 10px 0;
+    align-items: center;
+   
+    vertical-align: middle;
+
 }
 
 footer .copyright p {
@@ -577,7 +584,8 @@ footer .copyright p {
         color: black !important;
     }
     .navbar ul li a:hover {
-        color: #ffe25b !important;
+        color: #dd99ff
+        !important;
     }
     .navbar ul form {
         position: static;
@@ -603,24 +611,19 @@ footer .copyright p {
     /* service */
     
     .services .col-lg-4 {
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
     
     /* project */
     
     .project .col-lg-4 {
         position: static;
-        margin-bottom: 25px;
-        
-        
+        margin-bottom: 25px
     }
     
     /* contact */
     
-    .contact-child {
-        background-image: none;
-    }
-    
+ 
     /* footer */
     
     footer .logo {
