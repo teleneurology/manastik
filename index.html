@@ -327,7 +327,31 @@
             </div>
         </div>
         </section>
-        
+        <script>
+            function submitGoogleForm(form) {
+                console.log(form);
+                try {
+                var validRequest = true;
+                  var data = [].slice.call(form).map(function(control) {
+                    return 'value' in control && control.name ?
+                      control.name + '=' + (control.value === undefined ? '' : control.value) :
+                      '';
+                  }).join('&');
+                  var xhr = new XMLHttpRequest();
+            
+                  xhr.open('POST', 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW9CWn6Q3HmTXDGOsQOvBMCTp-Gssjak8ucs0kGNyA9WBwSg'+ '/formResponse', true);
+                  xhr.setRequestHeader('Accept',
+                      'application/xml, text/xml, */*; q=0.01');
+                  xhr.setRequestHeader('Content-type',
+                      'application/x-www-form-urlencoded; charset=UTF-8');
+                  var status = xhr.send(data);
+                } catch(e) {
+                validRequest = false;
+                console.log(e)
+                }
+                return false;
+              }
+            </script>
         <div class="contact" id="contact">
             <div class="container"><h2 class="text-capitalize" style="text-align: center;"><span>Get</span> in touch</h2></div>
             <div class="contact-child">
@@ -335,10 +359,10 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-12 align-items-center">
                             <div class="contact-form">
-                                <form>
-                                    <input type="text" placeholder="Your name">
-                                    <input type="text" placeholder="Your Phone number">
-                                    <input type="email" placeholder="Your email">
+                                <form action="./index.html" method="POST" id="mG61Hd" onsubmit="submitGoogleForm(this)">
+                                    <input type="text" name="entry.294937355" placeholder="Your name">
+                                    <input type="text" name="entry.1952447718" placeholder="Your Phone number">
+                                    <input type="email"  placeholder="Your email">
                                     <textarea placeholder="Message"></textarea>
                                     <input type="submit" value="send" class="text-uppercase">
                                 </form>
