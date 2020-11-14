@@ -234,7 +234,7 @@
                         <div class="col-lg-3 col-md-4 col-12" >
                             <div>
                                 <a href="http://www.soubhikdas.me/">
-                                    <img src="imgs/soubhik.jpg" style="border-radius: 50%;">
+                                    <img src="imgs/soubhik1.jpeg" style="border-radius: 50%;">
                                     <div class="yellow-overlay d-flex align-items-center justify-content-center">
                                         <p>Soubhik Das</p>
                                     </div>
@@ -254,7 +254,7 @@
                             <div class="col-lg-3 col-md-4 col-12">
                                 <div>
                                     <a href="https://www.linkedin.com/in/ankita-das-67648018b">
-                                        <img src="imgs/ankita.jpeg" style="border-radius: 50%;">
+                                        <img src="imgs/ankita1.jpg" style="border-radius: 50%;">
                                         <div class="yellow-overlay d-flex align-items-center justify-content-center">
                                             <p>Ankita Das</p>
                                         </div>
@@ -266,10 +266,10 @@
 
                             <div class="col-lg-3 col-md-4 col-12" >
                                 <div>
-                                    <a href="https://www.linkedin.com/in/tanmaya-angane-538b93175/">
-                                        <img src="imgs/tanmaya.jpeg" style="border-radius: 50%;">
+                                    <a href="https://www.linkedin.com/in/ayushinayak/">
+                                        <img src="imgs/ayushi.jpeg" style="border-radius: 50%;">
                                         <div class="yellow-overlay d-flex align-items-center justify-content-center">
-                                            <p>Tanmaya Angane</p>
+                                            <p>Ayushi Nayak</p>
                                         </div>
                                     </a>
                                 </div>
@@ -317,6 +317,17 @@
                                         </a>
                                     </div>
                                 </div>
+
+                                <div class="col-lg-3 col-md-4 col-12" >
+                                <div>
+                                    <a href="https://www.linkedin.com/in/tanmaya-angane-538b93175/">
+                                        <img src="imgs/tanmaya.jpeg" style="border-radius: 50%;">
+                                        <div class="yellow-overlay d-flex align-items-center justify-content-center">
+                                            <p>Tanmaya Angane</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                                 
                                 
                                 
@@ -327,31 +338,7 @@
             </div>
         </div>
         </section>
-        <script>
-            function submitGoogleForm(form) {
-                console.log(form);
-                try {
-                var validRequest = true;
-                  var data = [].slice.call(form).map(function(control) {
-                    return 'value' in control && control.name ?
-                      control.name + '=' + (control.value === undefined ? '' : control.value) :
-                      '';
-                  }).join('&');
-                  var xhr = new XMLHttpRequest();
-            
-                  xhr.open('POST', 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW9CWn6Q3HmTXDGOsQOvBMCTp-Gssjak8ucs0kGNyA9WBwSg'+ '/formResponse', true);
-                  xhr.setRequestHeader('Accept',
-                      'application/xml, text/xml, */*; q=0.01');
-                  xhr.setRequestHeader('Content-type',
-                      'application/x-www-form-urlencoded; charset=UTF-8');
-                  var status = xhr.send(data);
-                } catch(e) {
-                validRequest = false;
-                console.log(e)
-                }
-                return false;
-              }
-            </script>
+        
         <div class="contact" id="contact">
             <div class="container"><h2 class="text-capitalize" style="text-align: center;"><span>Get</span> in touch</h2></div>
             <div class="contact-child">
@@ -359,13 +346,15 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-12 align-items-center">
                             <div class="contact-form">
-                                <form action="./index.html" method="POST" id="mG61Hd" onsubmit="submitGoogleForm(this)">
-                                    <input type="text" name="entry.294937355" placeholder="Your name">
-                                    <input type="text" name="entry.1952447718" placeholder="Your Phone number">
-                                    <input type="email"  placeholder="Your email">
-                                    <textarea placeholder="Message"></textarea>
-                                    <input type="submit" value="send" class="text-uppercase">
+                                <form action="connect.php" method="post">
+                                    <input id="name" type="text" name="name"  placeholder="Your name">
+                                    <input id="phone" type="text" name="phone"  placeholder="Your Phone number">
+                                    <input id="email" type="email" name="email"   placeholder="Your email">
+                                    <textarea placeholder="Message" id="message" type="text" name="message" ></textarea>
+                                    <button id="submit" value="submit" class="text-uppercase">SEND</button>
                                 </form>
+
+                                Your name is <span id="outputName">___</span> Your mobule number is <span id="outputPhone">___</span>
                             </div>
                         </div>
                     </div>
