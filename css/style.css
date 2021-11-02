@@ -30,7 +30,7 @@ a {
 }
 
 h2 span {
-    text-decoration: underline #5bd9ff;
+    text-decoration: underline #490067;
 }
 
 h2 {
@@ -371,7 +371,7 @@ header .carousel-control-prev {
 
 }
     .member-benefits a {
-        font-color: white;
+        color: white;
     }
 /* contact */
 
@@ -434,6 +434,11 @@ header .carousel-control-prev {
 }
 .contact form input[input="submit"]:hover{
     background-color:   #bc47f7;
+}
+
+.contact form btn, #form-submit{
+    background-color: #490067;
+    color: #fff;
 }
 /* testimonial */
 
