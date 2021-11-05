@@ -436,7 +436,7 @@ header .carousel-control-prev {
     background-color:   #bc47f7;
 }
 
-.contact form btn, #form-submit{
+.contact form , #form-submit{
     background-color: #490067;
     color: #fff;
 }
