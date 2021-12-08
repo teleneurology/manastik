@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   filter: drop-shadow(0px 0px 0px #2a0036);
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -152,9 +153,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -164,25 +166,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47006b ;
-}
-.navbar .getstarted, .navbar .getstarted:focus {
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 50px;
-  color: #fff;
-  font-size: 14px;
-  border: 2px solid #c75dfb ;
-  font-weight: 600;
-}
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #c75dfb ;
+  color: #B70C8C;
 }
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: 30px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -202,13 +191,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #c75dfb ;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #c75dfb ;
+  color: #5fcf80;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -239,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #37423b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -266,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(88, 40, 90, 0.9);
+  background: rgba(32, 38, 34, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -283,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -291,14 +279,13 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #470089;
+  color: #B70C8C;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -321,19 +308,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #470089;
+  color: #5fcf80;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  height: 80vh;
-  background: #c44fff ;
+  height: 90vh;
+ background-image: linear-gradient(to right, #361743, #4b205d, #622979, #793296, #913cb4);
 }
 .hero .container {
   padding-top: 72px;
@@ -458,7 +444,7 @@ section {
   background-color: #f3f5fa;
 }
 
-.section-title {
+/*.section-title {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -493,7 +479,7 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Cliens
@@ -739,7 +725,7 @@ section {
 .services{
   background-color:#eecbff ;
 }
-.services .icon-box {
+/*.services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
@@ -773,7 +759,7 @@ section {
 }
 .services .icon-box:hover h4 a {
   color: #47006b;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Cta
@@ -969,7 +955,7 @@ section {
 .team .member .pic {
   overflow: hidden;
   width: 180px;
-  border-radius: 50%;
+  border-radius: 75%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -1240,6 +1226,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 .contact .info i {
   font-size: 20px;
@@ -1303,6 +1290,8 @@ section {
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
+
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
@@ -1378,6 +1367,7 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  width:200px;
 }
 .contact .php-email-form .btn:hover {
   background: #47006b;
