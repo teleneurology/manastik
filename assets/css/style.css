@@ -1,6 +1,9 @@
- #more 
- {
-  display: none;
+#more {display: none;}
+.read{
+  background-image: linear-gradient(to right, #361743, #4b205d, #622979, #793296, #913cb4);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 /*--------------------------------------------------------------
 # General
@@ -112,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #c75dfb ;
 }
 #header .logo {
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -126,9 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .logo img{
-  max-height: 80px;
+  max-height: 100px;
   margin:0;
-  margin-right: 10px;
   filter: drop-shadow(0px 0px 0px #2a0036);
 }
 
