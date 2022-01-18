@@ -24,7 +24,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "rushikesh.pallod@manastik.com";
+$EmailTo = "devangini.shinde@manastik.com";
 $Subject = "New Message Received";
 
 // prepare email body text
